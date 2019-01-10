@@ -25,6 +25,6 @@ public class RNRoiToastModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void show(String text) {
-    Toast.makeText(getReactApplicationContext(),text, Toast.LENGTH_LONG);
+    Toast.makeText(getReactApplicationContext(),text, Toast.LENGTH_LONG).show();
   }
 }
