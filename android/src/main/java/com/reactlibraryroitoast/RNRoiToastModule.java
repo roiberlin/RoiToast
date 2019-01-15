@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.reactlibraryroitoast;
 
 import android.app.Activity;
 import android.widget.Toast;
